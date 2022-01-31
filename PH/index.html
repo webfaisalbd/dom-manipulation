@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+     
+    <div class="blog">
+        <p class="article" id="article" style="color: red;">
+            Lorem ipsum dolor sit amet.
+        </p>
+    </div>
+
+    <div class="book">
+        <div class="paper">
+            <p class="page" id="page">Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+     
+ </div>   
+
+
+
+    <script>
+         const myArticle=document.querySelector('#article')
+         
+         
+        //  use of getAttribute
+        const getAttributeValue=myArticle.getAttribute('class');
+        //  console.log(getAttributeValue);
+         
+
+        //  use of setAttribute
+         const setAttributeValue=myArticle.setAttribute('title','its done');
+
+
+         // use of parentNode
+        //  console.log(myArticle.parentElement.parentNode.parentNode);
+
+
+
+         const myBook=document.querySelector('.book')
+         console.log(myBook.childNodes);
+         
+       
+         
+    </script>
+</body>
+</html>
