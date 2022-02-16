@@ -12,3 +12,8 @@ const classMethod=document.getElementsByClassName('anchor');
 console.log(classMethod);
 
 
+
+// changing html Elements
+const anchorId=document.getElementById('anchor');
+anchorId.innerHTML='Portfolio';
+
